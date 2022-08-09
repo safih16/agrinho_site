@@ -22,3 +22,42 @@ ul {
   li a:hover {
     background-color: #111;
   }
+  form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+.button{
+  padding-left: 90px;
+}
+button{
+  margin-left: .5em;
+}
+textarea{
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+input,textarea{
+  font: lem sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+#espaco-label{
+  padding-top: 2%;
+}
+h1{
+  font: size 700px;;
+  color: rgb(238, 255, 0);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  color: black;
+}
