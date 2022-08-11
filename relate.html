@@ -1,1 +1,40 @@
-Relate
+<!DOCTYPE html>
+<html>
+    <title>Relate</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <script>
+        function Mensagem(){
+            alert('Seu relato foi enviado.')
+        }
+    </script>
+    <body id="body-relate">
+        <ul>
+            <li> <a href="index.html">Início</a> </li>
+            <li><a href="relate.html">Relate</a></li>
+            <li><a href="contato.html">Rede de apoio</a></li>
+        </ul>
+        <div id="borda-form">
+            <form action="" method="post">
+                <body>
+                    <h1 id="titulo-relate">FAÇA AQUI A SUA DENUNCIA ANÔNIMA</h1>
+                    <P>Não se preocupe com a sua identidade, ela não será revelada, então você poderá falar sem medo.</P>
+                </body>
+                <div id="espaco-label">
+                    <label for="msg">mensagem:</label>
+                    <textarea id="msg" ></textarea>
+                </div>
+                <div class="button" id="espaco-label">
+                    <button type="submit" onclick="Mensagem()">Enviar</button>
+                </div>
+            </form>
+        </div>  
+        
+           
+        </body>
+        <p>Aqui você irá conseguir desabafar e também ajudar a indentificarem os problemas em sua escola.
+            Quando você relata o que acontece, está ajudando também a evitar que se repita essas situações.
+        </p>
+    </body>
+</html>
